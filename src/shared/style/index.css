@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary-bg: #10121C;
+    --color-secondary-bg: #020309;
+    --color-accent: #0050EF;
+    --color-primary-text: #FFFFFF;
+    --color-secondary-text: #9F9F9F;
+    --animate-slide-up: slide-up 150ms ease-out;
+    --animate-slide-down: slide-down 150ms ease-out;
+}
+
+
+@keyframes slide-up {
+    from {
+        transform: translateY(30%);
+    } to {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slide-down {
+    from {
+        transform: translateY(-30%);
+    } to {
+        transform: translateY(0%);
+    }
+}
